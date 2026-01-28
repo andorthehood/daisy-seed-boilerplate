@@ -24,3 +24,10 @@ build_and_program:
 	make clean
 	make
 	make program
+
+# Build and program via DFU
+.PHONY: build_and_program_dfu
+build_and_program_dfu:
+	make clean
+	make
+	make program-dfu
