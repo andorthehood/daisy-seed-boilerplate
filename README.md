@@ -7,3 +7,5 @@ It includes a minimal example firmware that bypasses the audio input directly to
 ## Building
 
 - `make build_libs` - Build the libraries (libDaisy)
+- `make build_and_program` - Clean, build, and program the device
+- `make build_and_program_dfu` - Clean, build, and program the device via DFU
