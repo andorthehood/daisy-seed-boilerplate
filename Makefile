@@ -16,3 +16,10 @@ include $(SYSTEM_FILES_DIR)/Makefile
 .PHONY: build_libs
 build_libs:
 	$(MAKE) -C $(LIBDAISY_DIR)
+
+# Build and program
+.PHONY: build_and_program
+build_and_program:
+	make clean
+	make
+	make program
