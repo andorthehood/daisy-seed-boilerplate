@@ -13,6 +13,7 @@ SYSTEM_FILES_DIR = $(LIBDAISY_DIR)/core
 include $(SYSTEM_FILES_DIR)/Makefile
 
 # Build libraries
+# Add $(MAKE) -C libs/DaisySP below if DaisySP is included as a submodule
 .PHONY: build_libs
 build_libs:
 	$(MAKE) clean -C $(LIBDAISY_DIR)
