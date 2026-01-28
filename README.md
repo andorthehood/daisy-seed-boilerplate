@@ -17,3 +17,11 @@ The Daisy toolchain must be installed to build and program the Daisy Seed. Follo
 - `make build_libs` - Build the libraries (libDaisy)
 - `make build_and_program` - Clean, build, and program the device
 - `make build_and_program_dfu` - Clean, build, and program the device via DFU
+
+## Notes
+
+This boilerplate is intentionally kept minimal. The DaisySP DSP library is not included by default, but can be easily added as a git submodule with:
+
+```bash
+git submodule add https://github.com/electro-smith/DaisySP libs/DaisySP
+```
