@@ -25,3 +25,5 @@ This boilerplate is intentionally kept minimal. The DaisySP DSP library is not i
 ```bash
 git submodule add https://github.com/electro-smith/DaisySP libs/DaisySP
 ```
+
+Once added, uncomment the DaisySP lines in the `build_libs` target in the Makefile to build it alongside libDaisy.
