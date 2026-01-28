@@ -15,6 +15,7 @@ include $(SYSTEM_FILES_DIR)/Makefile
 # Build libraries
 .PHONY: build_libs
 build_libs:
+	$(MAKE) clean -C $(LIBDAISY_DIR)
 	$(MAKE) -C $(LIBDAISY_DIR)
 
 # Build and program
