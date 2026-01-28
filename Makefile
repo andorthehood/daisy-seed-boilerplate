@@ -2,7 +2,7 @@
 TARGET = bypass
 
 # Sources
-CPP_SOURCES = bypass.cpp
+CPP_SOURCES = src/main.cpp
 
 # Library Locations
 # DAISYSP_DIR ?= ../../DaisySP
