@@ -11,3 +11,8 @@ LIBDAISY_DIR ?= libs/libDaisy
 # Core location, and generic Makefile.
 SYSTEM_FILES_DIR = $(LIBDAISY_DIR)/core
 include $(SYSTEM_FILES_DIR)/Makefile
+
+# Build libraries
+.PHONY: build_libs
+build_libs:
+	$(MAKE) -C $(LIBDAISY_DIR)
