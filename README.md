@@ -20,7 +20,7 @@ The Daisy toolchain must be installed to build and program the Daisy Seed. Follo
 
 ## Notes
 
-This boilerplate is intentionally kept minimal. The DaisySP DSP library is not included by default, but can be easily added as a git submodule with:
+The DaisySP DSP library is not included by default. This boilerplate is intentionally kept minimal, but DaisySP can be easily added as a git submodule with:
 
 ```bash
 git submodule add https://github.com/electro-smith/DaisySP libs/DaisySP
